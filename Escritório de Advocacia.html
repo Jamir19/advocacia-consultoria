@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocacia Santos & Associados</title>
+    <link rel="stylesheet" href="../Advocacia Santos & Associados/Advocacia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Advocacia Santos & Associados</h1>
+            <p>Consultoria e serviços especializados em Direito</p>
+        </div>
+    </header>
+
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Direito Civil</h3>
+                <p>Atuamos em contratos, disputas cíveis, indenizações e direitos de propriedade.</p>
+            </div>
+            <div class="service-item">
+                <h3>Direito Trabalhista</h3>
+                <p>Representação em causas trabalhistas para empregados e empregadores.</p>
+            </div>
+            <div class="service-item">
+                <h3>Direito Empresarial</h3>
+                <p>Consultoria para empresas, fusões, aquisições e gestão de riscos.</p>
+            </div>
+            <div class="service-item">
+                <h3>Direito Penal</h3>
+                <p>Defesa em processos criminais e consultoria em crimes corporativos.</p>
+            </div>
+            <div class="service-item">
+                <h3>Direito de Família</h3>
+                <p>Resolução de questões familiares como divórcio e guarda de filhos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo para solicitar mais informações!</p>
+    </section>
+
+    <section class="formulario">
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Advocacia Santos & Associados. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Ancorando o arquivo de animação JS -->
+    <script src="../Advocacia Santos & Associados/animations.js"></script>
+</body>
+</html>
